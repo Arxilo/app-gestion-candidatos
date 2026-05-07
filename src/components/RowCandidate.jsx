@@ -1,4 +1,5 @@
 import React from "react";
+import { formatDate } from "../helpers/generator";
 
 function RowCandidate({data}) {
   return (
@@ -35,7 +36,7 @@ function RowCandidate({data}) {
       </td>
       <td className="px-6 py-4 text-slate-700 dark:text-slate-200">{data.appliedOfferId}</td>
       <td className="px-6 py-4 text-slate-600 dark:text-slate-400">
-        {data.createdAt}
+        {formatDate(data.createdAt)}
       </td>
       <td className="px-6 py-4">
         <div className="flex items-center justify-end gap-2">
