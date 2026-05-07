@@ -27,9 +27,6 @@ function CreateCandidate() {
           <form className="rounded-[0.75rem] bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 overflow-hidden">
             <div className="px-6 py-5 border-b border-slate-200 dark:border-slate-800">
               <h2 className="text-lg font-bold text-slate-900 dark:text-white">Datos del candidato</h2>
-              <p className="text-sm text-slate-600 dark:text-slate-400">
-                Los campos corresponden al modelo de tu API.
-              </p>
             </div>
 
             <div className="p-6 grid grid-cols-1 md:grid-cols-12 gap-5">

@@ -3,6 +3,7 @@ import { end_points } from "../services/api";
 import { generateId } from "../helpers/generator";
 import { saveLocalStorage } from "../helpers/local-storage";
 import { generalAlert, redirectAlert } from "../helpers/alerts";
+import { Link } from "react-router-dom";
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -75,12 +76,12 @@ function Login() {
               <p class="text-gray-900 mt-4">
                 {" "}
                 Don't have an account?{" "}
-                <a
-                  href="#"
+                <Link
+                  to="/register"
                   class="text-sm text-blue-500 -200 hover:underline mt-4"
                 >
                   Signup
-                </a>
+                </Link>
               </p>
             </div>
             <button

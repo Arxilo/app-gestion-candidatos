@@ -5,3 +5,4 @@ export let end_points = {
     candidates: URL_BASE + "candidates",
     applications: `${URL_BASE}applications`
 }
+
